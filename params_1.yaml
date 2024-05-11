@@ -1,0 +1,7 @@
+/**:
+    ros__parameters:
+      # This video device may change when devices are unplugged or restarted
+      # camera paths must be found using the commands provided
+      video_device: "/dev/video4"
+      pixel_format: "YUYV"
+      # .image_raw.jpeg_quality: "50"

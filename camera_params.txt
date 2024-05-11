@@ -1,0 +1,22 @@
+PARAMETERS PROVIDED BY THE v4l2_camera_node NODES
+
+  .image_raw.format
+  .image_raw.jpeg_quality
+  .image_raw.png_level
+  .image_raw.tiff.res_unit
+  .image_raw.tiff.xdpi{
+        'name': 'camera1',
+        'params': 'params_1.yaml'
+    }
+  .image_raw.tiff.ydpi
+  camera_frame_id
+  camera_info_url
+  image_size
+  output_encoding
+  pixel_format
+  qos_overrides./parameter_events.publisher.depth
+  qos_overrides./parameter_events.publisher.durability
+  qos_overrides./parameter_events.publisher.history
+  qos_overrides./parameter_events.publisher.reliability
+  use_sim_time
+  video_device
