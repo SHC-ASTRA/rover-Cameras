@@ -1,0 +1,12 @@
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/uninstall.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/v4l2_camera_uninstall.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/v4l2_camera.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/v4l2_camera_node.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/v4l2_camera_compose_test.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/test.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/edit_cache.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/rebuild_cache.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/list_install_components.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/install.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/install/local.dir
+/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera/CMakeFiles/install/strip.dir

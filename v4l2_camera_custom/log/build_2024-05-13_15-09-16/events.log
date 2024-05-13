@@ -1,0 +1,366 @@
+[0.000000] (-) TimerEvent: {}
+[0.000624] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.000814] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.012039] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[0.013221] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera', '-DCMAKE_INSTALL_PREFIX=/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera'], 'cwd': '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'astra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astra'), ('OLDPWD', '/home/astra/Documents/rover-Cameras'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1483'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a59ab74bf44a3270baa780c566426b8d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'astra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/astra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basestation-1:@/tmp/.ICE-unix/1483,unix/basestation-1:/tmp/.ICE-unix/1483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7851b4be_4b81_4313_a2be_e5501ece2845'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GI30N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/health_pkg:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/core_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a59ab74bf44a3270baa780c566426b8d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg/lib/python3.10/site-packages:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg/lib/python3.10/site-packages:/home/astra/Documents/rover-Core/core_ws/install/core_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install/health_pkg:/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/core_pkg:/opt/ros/humble')]), 'shell': False}
+[0.033384] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.099699] (-) TimerEvent: {}
+[0.200148] (-) TimerEvent: {}
+[0.300489] (-) TimerEvent: {}
+[0.353175] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.356500] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.366135] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.382614] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400597] (-) TimerEvent: {}
+[0.403621] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.487238] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.489114] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500703] (-) TimerEvent: {}
+[0.601029] (-) TimerEvent: {}
+[0.640939] (v4l2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701148] (-) TimerEvent: {}
+[0.801505] (-) TimerEvent: {}
+[0.901851] (-) TimerEvent: {}
+[1.002205] (-) TimerEvent: {}
+[1.102635] (-) TimerEvent: {}
+[1.203078] (-) TimerEvent: {}
+[1.257166] (v4l2_camera) StderrLine: {'line': b'\x1b[0mCUDA_TOOLKIT_ROOT_DIR not found or specified\x1b[0m\n'}
+[1.268725] (v4l2_camera) StdoutLine: {'line': b'-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) \n'}
+[1.276192] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.303184] (-) TimerEvent: {}
+[1.326158] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.326442] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/include>\n'}
+[1.326562] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.336921] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.337226] (v4l2_camera) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.339147] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.342283] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.344881] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.354951] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.355376] (v4l2_camera) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.357361] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.366249] (v4l2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.392457] (v4l2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[1.395432] (v4l2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera\n'}
+[1.403296] (-) TimerEvent: {}
+[1.406813] (v4l2_camera) CommandEnded: {'returncode': 0}
+[1.407797] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[1.408768] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera', '--', '-j4', '-l4'], 'cwd': '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'astra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astra'), ('OLDPWD', '/home/astra/Documents/rover-Cameras'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1483'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a59ab74bf44a3270baa780c566426b8d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'astra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/astra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basestation-1:@/tmp/.ICE-unix/1483,unix/basestation-1:/tmp/.ICE-unix/1483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7851b4be_4b81_4313_a2be_e5501ece2845'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GI30N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/health_pkg:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/core_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a59ab74bf44a3270baa780c566426b8d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg/lib/python3.10/site-packages:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg/lib/python3.10/site-packages:/home/astra/Documents/rover-Core/core_ws/install/core_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install/health_pkg:/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/core_pkg:/opt/ros/humble')]), 'shell': False}
+[1.475365] (v4l2_camera) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o\x1b[0m\n'}
+[1.475613] (v4l2_camera) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o\x1b[0m\n'}
+[1.503418] (-) TimerEvent: {}
+[1.603778] (-) TimerEvent: {}
+[1.704138] (-) TimerEvent: {}
+[1.804547] (-) TimerEvent: {}
+[1.904920] (-) TimerEvent: {}
+[2.005297] (-) TimerEvent: {}
+[2.105652] (-) TimerEvent: {}
+[2.206020] (-) TimerEvent: {}
+[2.306411] (-) TimerEvent: {}
+[2.406793] (-) TimerEvent: {}
+[2.507169] (-) TimerEvent: {}
+[2.607522] (-) TimerEvent: {}
+[2.707878] (-) TimerEvent: {}
+[2.808252] (-) TimerEvent: {}
+[2.908612] (-) TimerEvent: {}
+[3.008981] (-) TimerEvent: {}
+[3.109335] (-) TimerEvent: {}
+[3.209687] (-) TimerEvent: {}
+[3.310062] (-) TimerEvent: {}
+[3.410467] (-) TimerEvent: {}
+[3.510862] (-) TimerEvent: {}
+[3.611236] (-) TimerEvent: {}
+[3.711588] (-) TimerEvent: {}
+[3.811988] (-) TimerEvent: {}
+[3.912329] (-) TimerEvent: {}
+[4.012731] (-) TimerEvent: {}
+[4.113089] (-) TimerEvent: {}
+[4.213459] (-) TimerEvent: {}
+[4.313814] (-) TimerEvent: {}
+[4.414176] (-) TimerEvent: {}
+[4.514576] (-) TimerEvent: {}
+[4.614968] (-) TimerEvent: {}
+[4.715332] (-) TimerEvent: {}
+[4.815724] (-) TimerEvent: {}
+[4.916138] (-) TimerEvent: {}
+[5.016672] (-) TimerEvent: {}
+[5.117039] (-) TimerEvent: {}
+[5.217405] (-) TimerEvent: {}
+[5.317881] (-) TimerEvent: {}
+[5.418280] (-) TimerEvent: {}
+[5.518674] (-) TimerEvent: {}
+[5.619141] (-) TimerEvent: {}
+[5.719483] (-) TimerEvent: {}
+[5.819823] (-) TimerEvent: {}
+[5.920175] (-) TimerEvent: {}
+[6.020526] (-) TimerEvent: {}
+[6.120879] (-) TimerEvent: {}
+[6.221225] (-) TimerEvent: {}
+[6.321651] (-) TimerEvent: {}
+[6.422002] (-) TimerEvent: {}
+[6.522460] (-) TimerEvent: {}
+[6.622824] (-) TimerEvent: {}
+[6.723305] (-) TimerEvent: {}
+[6.823682] (-) TimerEvent: {}
+[6.924055] (-) TimerEvent: {}
+[7.024485] (-) TimerEvent: {}
+[7.124857] (-) TimerEvent: {}
+[7.225216] (-) TimerEvent: {}
+[7.325585] (-) TimerEvent: {}
+[7.425931] (-) TimerEvent: {}
+[7.526285] (-) TimerEvent: {}
+[7.626627] (-) TimerEvent: {}
+[7.727002] (-) TimerEvent: {}
+[7.827367] (-) TimerEvent: {}
+[7.927718] (-) TimerEvent: {}
+[8.028063] (-) TimerEvent: {}
+[8.128429] (-) TimerEvent: {}
+[8.228844] (-) TimerEvent: {}
+[8.329200] (-) TimerEvent: {}
+[8.429577] (-) TimerEvent: {}
+[8.529916] (-) TimerEvent: {}
+[8.630331] (-) TimerEvent: {}
+[8.730808] (-) TimerEvent: {}
+[8.831168] (-) TimerEvent: {}
+[8.931491] (-) TimerEvent: {}
+[9.031811] (-) TimerEvent: {}
+[9.132126] (-) TimerEvent: {}
+[9.232433] (-) TimerEvent: {}
+[9.332912] (-) TimerEvent: {}
+[9.433277] (-) TimerEvent: {}
+[9.533631] (-) TimerEvent: {}
+[9.634064] (-) TimerEvent: {}
+[9.734389] (-) TimerEvent: {}
+[9.834706] (-) TimerEvent: {}
+[9.935040] (-) TimerEvent: {}
+[10.035367] (-) TimerEvent: {}
+[10.135694] (-) TimerEvent: {}
+[10.236024] (-) TimerEvent: {}
+[10.336352] (-) TimerEvent: {}
+[10.436682] (-) TimerEvent: {}
+[10.537034] (-) TimerEvent: {}
+[10.637374] (-) TimerEvent: {}
+[10.737714] (-) TimerEvent: {}
+[10.838044] (-) TimerEvent: {}
+[10.938384] (-) TimerEvent: {}
+[11.038739] (-) TimerEvent: {}
+[11.139087] (-) TimerEvent: {}
+[11.239434] (-) TimerEvent: {}
+[11.339799] (-) TimerEvent: {}
+[11.440116] (-) TimerEvent: {}
+[11.540589] (-) TimerEvent: {}
+[11.641006] (-) TimerEvent: {}
+[11.718890] (v4l2_camera) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libv4l2_camera.so\x1b[0m\n'}
+[11.741126] (-) TimerEvent: {}
+[11.841515] (-) TimerEvent: {}
+[11.941901] (-) TimerEvent: {}
+[12.042341] (-) TimerEvent: {}
+[12.142751] (-) TimerEvent: {}
+[12.197205] (v4l2_camera) StdoutLine: {'line': b'[ 42%] Built target v4l2_camera\n'}
+[12.222459] (v4l2_camera) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o\x1b[0m\n'}
+[12.222715] (v4l2_camera) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o\x1b[0m\n'}
+[12.243035] (-) TimerEvent: {}
+[12.343531] (-) TimerEvent: {}
+[12.443998] (-) TimerEvent: {}
+[12.544554] (-) TimerEvent: {}
+[12.645082] (-) TimerEvent: {}
+[12.745544] (-) TimerEvent: {}
+[12.845970] (-) TimerEvent: {}
+[12.946437] (-) TimerEvent: {}
+[13.047006] (-) TimerEvent: {}
+[13.147417] (-) TimerEvent: {}
+[13.247851] (-) TimerEvent: {}
+[13.348306] (-) TimerEvent: {}
+[13.448771] (-) TimerEvent: {}
+[13.549203] (-) TimerEvent: {}
+[13.649630] (-) TimerEvent: {}
+[13.750019] (-) TimerEvent: {}
+[13.850376] (-) TimerEvent: {}
+[13.950726] (-) TimerEvent: {}
+[14.051096] (-) TimerEvent: {}
+[14.151432] (-) TimerEvent: {}
+[14.251777] (-) TimerEvent: {}
+[14.352128] (-) TimerEvent: {}
+[14.452503] (-) TimerEvent: {}
+[14.552914] (-) TimerEvent: {}
+[14.653257] (-) TimerEvent: {}
+[14.753612] (-) TimerEvent: {}
+[14.853975] (-) TimerEvent: {}
+[14.954328] (-) TimerEvent: {}
+[15.054683] (-) TimerEvent: {}
+[15.155076] (-) TimerEvent: {}
+[15.255490] (-) TimerEvent: {}
+[15.355922] (-) TimerEvent: {}
+[15.456351] (-) TimerEvent: {}
+[15.556800] (-) TimerEvent: {}
+[15.662418] (-) TimerEvent: {}
+[15.762851] (-) TimerEvent: {}
+[15.863383] (-) TimerEvent: {}
+[15.963822] (-) TimerEvent: {}
+[16.064284] (-) TimerEvent: {}
+[16.164780] (-) TimerEvent: {}
+[16.265246] (-) TimerEvent: {}
+[16.365647] (-) TimerEvent: {}
+[16.466078] (-) TimerEvent: {}
+[16.566486] (-) TimerEvent: {}
+[16.666892] (-) TimerEvent: {}
+[16.767325] (-) TimerEvent: {}
+[16.867736] (-) TimerEvent: {}
+[16.968158] (-) TimerEvent: {}
+[17.068537] (-) TimerEvent: {}
+[17.168887] (-) TimerEvent: {}
+[17.269265] (-) TimerEvent: {}
+[17.369625] (-) TimerEvent: {}
+[17.469994] (-) TimerEvent: {}
+[17.570361] (-) TimerEvent: {}
+[17.670723] (-) TimerEvent: {}
+[17.771084] (-) TimerEvent: {}
+[17.871435] (-) TimerEvent: {}
+[17.971792] (-) TimerEvent: {}
+[18.072151] (-) TimerEvent: {}
+[18.140683] (v4l2_camera) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable v4l2_camera_node\x1b[0m\n'}
+[18.172279] (-) TimerEvent: {}
+[18.272683] (-) TimerEvent: {}
+[18.373069] (-) TimerEvent: {}
+[18.473456] (-) TimerEvent: {}
+[18.473772] (v4l2_camera) StdoutLine: {'line': b'[ 85%] Built target v4l2_camera_node\n'}
+[18.573602] (-) TimerEvent: {}
+[18.673981] (-) TimerEvent: {}
+[18.774344] (-) TimerEvent: {}
+[18.874677] (-) TimerEvent: {}
+[18.975037] (-) TimerEvent: {}
+[19.075362] (-) TimerEvent: {}
+[19.175693] (-) TimerEvent: {}
+[19.276025] (-) TimerEvent: {}
+[19.376375] (-) TimerEvent: {}
+[19.476786] (-) TimerEvent: {}
+[19.577193] (-) TimerEvent: {}
+[19.677581] (-) TimerEvent: {}
+[19.777981] (-) TimerEvent: {}
+[19.878368] (-) TimerEvent: {}
+[19.978763] (-) TimerEvent: {}
+[20.079169] (-) TimerEvent: {}
+[20.179551] (-) TimerEvent: {}
+[20.279988] (-) TimerEvent: {}
+[20.380408] (-) TimerEvent: {}
+[20.480800] (-) TimerEvent: {}
+[20.581129] (-) TimerEvent: {}
+[20.681463] (-) TimerEvent: {}
+[20.781835] (-) TimerEvent: {}
+[20.882210] (-) TimerEvent: {}
+[20.982578] (-) TimerEvent: {}
+[21.082953] (-) TimerEvent: {}
+[21.183295] (-) TimerEvent: {}
+[21.283671] (-) TimerEvent: {}
+[21.384001] (-) TimerEvent: {}
+[21.484350] (-) TimerEvent: {}
+[21.584715] (-) TimerEvent: {}
+[21.685059] (-) TimerEvent: {}
+[21.785433] (-) TimerEvent: {}
+[21.885809] (-) TimerEvent: {}
+[21.986153] (-) TimerEvent: {}
+[22.086485] (-) TimerEvent: {}
+[22.186903] (-) TimerEvent: {}
+[22.287296] (-) TimerEvent: {}
+[22.387644] (-) TimerEvent: {}
+[22.487997] (-) TimerEvent: {}
+[22.588382] (-) TimerEvent: {}
+[22.688741] (-) TimerEvent: {}
+[22.789095] (-) TimerEvent: {}
+[22.889444] (-) TimerEvent: {}
+[22.989843] (-) TimerEvent: {}
+[23.090200] (-) TimerEvent: {}
+[23.190561] (-) TimerEvent: {}
+[23.290925] (-) TimerEvent: {}
+[23.391279] (-) TimerEvent: {}
+[23.491642] (-) TimerEvent: {}
+[23.592092] (-) TimerEvent: {}
+[23.692459] (-) TimerEvent: {}
+[23.792889] (-) TimerEvent: {}
+[23.893254] (-) TimerEvent: {}
+[23.993625] (-) TimerEvent: {}
+[24.094064] (-) TimerEvent: {}
+[24.194427] (-) TimerEvent: {}
+[24.294852] (-) TimerEvent: {}
+[24.395229] (-) TimerEvent: {}
+[24.495583] (-) TimerEvent: {}
+[24.595930] (-) TimerEvent: {}
+[24.696302] (-) TimerEvent: {}
+[24.796667] (-) TimerEvent: {}
+[24.897046] (-) TimerEvent: {}
+[24.997497] (-) TimerEvent: {}
+[25.097863] (-) TimerEvent: {}
+[25.198231] (-) TimerEvent: {}
+[25.298647] (-) TimerEvent: {}
+[25.399012] (-) TimerEvent: {}
+[25.499361] (-) TimerEvent: {}
+[25.599694] (-) TimerEvent: {}
+[25.700062] (-) TimerEvent: {}
+[25.720024] (v4l2_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable v4l2_camera_compose_test\x1b[0m\n'}
+[25.800299] (-) TimerEvent: {}
+[25.900762] (-) TimerEvent: {}
+[26.001139] (-) TimerEvent: {}
+[26.101540] (-) TimerEvent: {}
+[26.201931] (-) TimerEvent: {}
+[26.302462] (-) TimerEvent: {}
+[26.402872] (-) TimerEvent: {}
+[26.438316] (v4l2_camera) StdoutLine: {'line': b'[100%] Built target v4l2_camera_compose_test\n'}
+[26.453013] (v4l2_camera) CommandEnded: {'returncode': 0}
+[26.491886] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'install'}
+[26.503367] (-) TimerEvent: {}
+[26.504176] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera'], 'cwd': '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'astra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astra'), ('OLDPWD', '/home/astra/Documents/rover-Cameras'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1483'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a59ab74bf44a3270baa780c566426b8d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'astra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/astra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/basestation-1:@/tmp/.ICE-unix/1483,unix/basestation-1:/tmp/.ICE-unix/1483'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7851b4be_4b81_4313_a2be_e5501ece2845'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GI30N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/health_pkg:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/core_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a59ab74bf44a3270baa780c566426b8d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg/lib/python3.10/site-packages:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg/lib/python3.10/site-packages:/home/astra/Documents/rover-Core/core_ws/install/core_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/astra/Documents/rover-Core/core_ws/install/health_pkg:/home/astra/Documents/rover-Core/core_ws/install/mac_headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/headless_pkg:/home/astra/Documents/rover-Core/core_ws/install/core_pkg:/opt/ros/humble')]), 'shell': False}
+[26.515829] (v4l2_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.516142] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include\n'}
+[26.516330] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera\n'}
+[26.516478] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[26.516622] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[26.516763] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[26.516892] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[26.517038] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[26.517182] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[26.517304] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[26.517457] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/lib/libv4l2_camera.so\n'}
+[26.522561] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/lib/libv4l2_camera.so" to ""\n'}
+[26.522825] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node\n'}
+[26.523388] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""\n'}
+[26.523587] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test\n'}
+[26.528940] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""\n'}
+[26.529331] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh\n'}
+[26.529509] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv\n'}
+[26.529988] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include\n'}
+[26.530255] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera\n'}
+[26.530411] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[26.530621] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[26.530788] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[26.531020] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[26.531306] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[26.531464] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[26.531624] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[26.531884] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/launch\n'}
+[26.532050] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/launch/v4l2_camera.launch.py\n'}
+[26.532246] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera\n'}
+[26.532412] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera\n'}
+[26.532592] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh\n'}
+[26.532764] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv\n'}
+[26.532961] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/environment/path.sh\n'}
+[26.533095] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/environment/path.dsv\n'}
+[26.533288] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/local_setup.bash\n'}
+[26.533489] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/local_setup.sh\n'}
+[26.533710] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/local_setup.zsh\n'}
+[26.533912] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/local_setup.dsv\n'}
+[26.534127] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/package.dsv\n'}
+[26.534283] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera\n'}
+[26.534526] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera\n'}
+[26.534760] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake\n'}
+[26.535012] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake\n'}
+[26.535335] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.535677] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.535881] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.536038] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.536191] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake\n'}
+[26.536332] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake\n'}
+[26.536570] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/astra/Documents/rover-Cameras/ros2_v4l2_camera/install/v4l2_camera/share/v4l2_camera/package.xml\n'}
+[26.539027] (v4l2_camera) CommandEnded: {'returncode': 0}
+[26.603496] (-) TimerEvent: {}
+[26.616969] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 0}
+[26.617881] (-) EventReactorShutdown: {}

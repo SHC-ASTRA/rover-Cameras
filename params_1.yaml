@@ -4,4 +4,6 @@
       # camera paths must be found using the commands provided
       video_device: "/dev/video4"
       pixel_format: "YUYV"
+      image_size: [640,480]
+      time_per_frame: [1,30]
       # .image_raw.jpeg_quality: "50"

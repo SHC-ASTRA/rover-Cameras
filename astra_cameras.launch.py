@@ -15,7 +15,8 @@ CAMERAS_LIST = [
 #    {
 #        'name': 'camera1',
 #        'params': 'params_1.yaml'
-#    },
+#    }
+#,
 #    {
 #        'name': 'camera2',
 #        'params': 'params_2.yaml'
