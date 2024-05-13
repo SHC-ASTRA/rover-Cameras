@@ -17,19 +17,19 @@ def launch_setup(context, *args, **kwargs):
 
     composable_nodes = [
         ComposableNode(
-            package="v4l2_camera",
+            package="v4l2_camera_custom",
             plugin="v4l2_camera::V4L2Camera",
             name=['v4l2_camera_', LaunchConfiguration("camera_name")],
             namespace=LaunchConfiguration("v4l2_camera_namespace"),
             remappings=[
-                (
-                    "image_raw",
-                    [
-                        LaunchConfiguration("camera_name"),
-                        '/',
-                        LaunchConfiguration("image_topic"),
-                    ],
-                ),
+                #(
+                #    "image_raw",
+                #    [
+                #        LaunchConfiguration("camera_name"),
+                #        '/',
+                #        LaunchConfiguration("image_topic"),
+                #    ],
+                #),
                 (
                     "image_raw/compressed",
                     [
@@ -111,7 +111,7 @@ def generate_launch_description():
     add_launch_arg('image_topic',
                    description='image topic name to be published')
     add_launch_arg('camera_name',
-                   description='prefix to be added to the head of topic name')
+                   description='prefix to be added to the head of topic name')git@github.com:SHC-ASTRA/rover-Cameras.git
     add_launch_arg('v4l2_camera_namespace', '/sensing/camera',
                    description='namespace in which the nodes launched')
     add_launch_arg('v4l2_camera_param_path',
@@ -124,7 +124,7 @@ def generate_launch_description():
                    description='flag to use sensor data QoS. '
                    'If true, the reliability of image topic QoS will be BEST_EFFORT, '
                    'otherwise be RELIABLE')
-    add_launch_arg('publish_rate', "-1.0",
+    add_launch_arg('publish_rate', "25.0",
                    description='publish frame number per second. value <= 0 means no limitation on publish rate')
 
     return LaunchDescription(

@@ -34,7 +34,7 @@ def generate_launch_description():
     for camera in CAMERAS_LIST:
         nodes_list.append(
             Node(
-                package='v4l2_camera', executable='v4l2_camera_node', output='screen',
+                package='v4l2_camera_custom', executable='v4l2_camera_node', output='screen',
                 name=f"v4l2_{camera['name']}", # Node Name
                 namespace=camera['name'], # Namespace?
                 parameters=[
