@@ -2,8 +2,13 @@
     ros__parameters:
       # This video device may change when devices are unplugged or restarted
       # camera paths must be found using the commands provided
-      video_device: "/dev/video4"
+      video_device: "/dev/video6"
+      #framerate: 25.0
+      time_per_frame: [1, 30]
+      camera_frame_id: camera_optical_frame
       pixel_format: "YUYV"
-      image_size: [640,480]
-      time_per_frame: [1,30]
-      # .image_raw.jpeg_quality: "50"
+      #io_method: "usrptr"
+      output_encoding: "rgb8"
+      image_size: [680,420]
+      image_raw.jpeg_quality: "25"
+      image_raw.enable_pub_plugins: ["image_transport/compressed"]
